@@ -1,0 +1,116 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav, ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity:1;
+}
+
+header{
+    background-color: rgb(149, 123, 172);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    padding: 10px 10px;
+}
+
+header img{
+    width: 50px;
+}
+
+header nav{
+    display: flex;
+}
+
+header li a{
+    color:rgb(27,4,54);
+    font-size: 15px;
+}
+
+header li{
+    margin: 15px;
+}
+
+.boxgrande{
+    background-image: url(https://st2.depositphotos.com/1000886/5454/v/450/depositphotos_54540917-stock-illustration-seamless-pattern-with-ribbons-and.jpg);
+    height: 300px;
+    top: 80px;
+    left:80px;
+    right: 80px;
+    display:flex;
+    justify-content:center;
+    align-items:calc(20px);
+    padding:60px;
+    bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(27,4,54);
+}
+h2{
+    text-align: center;
+    color: rgb(27,4,54);
+}
+p{
+    text-align: center;
+    color: rgb(71,16,122);    
+}
+
+.um {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-color: rgb(27,4,54);
+    border-style:solid;
+    background-color: rgb(149,123,172);
+    height: 80px;   
+    padding: 5px; 
+    bottom: 7px;
+}
+
+
+.flex-container{
+    background-image: url(https://st2.depositphotos.com/1000886/5454/v/450/depositphotos_54540917-stock-illustration-seamless-pattern-with-ribbons-and.jpg);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding: 10px;
+}
+
+.flex-containerdois{
+    background-color: rgb(149,123,172);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 80%;   
+    padding: 10px; 
+    top:10px;
+}
+
+.flex-item{
+    gap:20px 40px;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.iframe {
+    padding: 2px;
+    border: 5px;
+    border-style:double;
+    border-color: rgb(27,4,54);
+}
