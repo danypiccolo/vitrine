@@ -1,5 +1,5 @@
 *{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav, ul {
@@ -82,6 +82,24 @@ p{
     bottom: 7px;
 }
 
+.dois {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-color: rgb(107, 54, 168);
+    border-style:solid;
+    background-color: rgb(182, 172, 192);
+    height: 150px;   
+    padding: 8px; 
+    bottom: 8px; 
+    top: 8px;
+    left: 8px;
+    text-align:center;
+    text-emphasis: none;
+    font-size: 23px;    
+ }
+
 
 .flex-container{
     background-image: url(https://st2.depositphotos.com/1000886/5454/v/450/depositphotos_54540917-stock-illustration-seamless-pattern-with-ribbons-and.jpg);
@@ -100,12 +118,6 @@ p{
     flex-basis: 80%;   
     padding: 10px; 
     top:10px;
-}
-
-.flex-item{
-    gap:20px 40px;
-    row-gap: 40px;
-    column-gap: 40px;
 }
 
 .iframe {
