@@ -4,44 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artesã</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+    <title>A Artesã</title>
+    
 </head>
 
 <body>
+<style>
+    body{
+        display:flex;
+        justify-content:center;
+        align-items:center ;
+        min-height: 100vh;
+        background-color: #6e3a82;
+    }
 
-    <header>              
-    <a href="index.html"> <img src="imagens/logo.ico"> </a>
+    .container{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
 
-    <nav>
-    <li> <a href="index.html"> <strong>Home</strong></a>
-        </li>
-    <li> <a href="infantil.html"> <strong> Infantil </strong></a>
-        </li>
-    <li> <a href="pet.html"> <strong> Pet</strong> </a>
-        </li>   
-     </header>
+    .container .card{
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 30px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    
+    .container .card .content{
+        padding: 20px;
+        text-align: center;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 0.5s;
+    }
 
-    <section class="boxgrande">   
-    <section>
+    .container .card:hover .content{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 
-        
-    <img src="imagens/perfildani.jpg"    alt="Artesã Daniele Píccolo"    width="380" height="360"></section>
-    <section>
-    <p style="font-size: 25px; color: rgb(16, 66, 6)"> Meu nome é Daniele, nasci e vivi por 35 anos em ARARAS-SP, atualmente moro em ITAJUBÁ-MG.
-        Sou casada, mãe de 2 meninos, estudante universitária do curso de Bacharelado em Administração, também faço parte do programa Descodificadas
-        voltado para Desenvolvimento Web. Amo ouvir música, acredito que a música tem o poder de mudar nosso astral. Gosto muito de ler, paixão que se iniciou 
-        aos 9 anos, apesar de não ter tanto tempo para me dedicar a essa paixão. Sou caseira, curto muito minha casa, meu cantinho, nas horas vagas 
-        assisto séries asiáticas e com elas veio minha paixão por K-POP.      
-        Sempre gostei muito de trabalhos manuais, fazia lembrançinhas e enfeites de festa de aniversário dos meus filhos e sobrinhos, me considero
-        criativa, gosto de reutilizar e reformar peças, sou muito detalhista nos meus trabalhos e acabo me cobrando demais para poder entregar
-        o melhor produto possível. 
-</p></section>    
-    </section>   
-        
-    <footer> 
-        &copy;Criado por Daniele Píccolo
-    </footer>
+    .container .card .content h2{
+        position: absolute;
+        top: -80px;
+        right: 30px;
+        font-size: 8em;
+        color: antiquewhite;
+        pointer-events: none;
+    }
+
+    .container .card .content h3{
+        font-size: 1.8em;
+        color: bisque;
+        z-index: 1;
+    }
+
+    .container .card .container p{
+        font-size: 1em;
+        color: azure;
+        font-weight: 300;
+    }
+
+</style>
+
+
+    <div class="container">
+
+    <div> 
+        <h2>Daniele Píccolo</h2>
+        <img src="imagens/perfildani.jpg" width="450px" height="400px">
+    </div>
+
+        <div class="card">
+        <div class="content">
+            <h3>Quem é a artesã</h3>
+            <p>Meu nome é Daniele,sou casada, mãe de 2 meninos, estudante universitária do curso de Bacharelado em Administração, também faço parte do programa Descodificadas
+                voltado para Desenvolvimento Web.sSempre gostei muito de trabalhos manuais, fazia lembrançinhas e enfeites de festa de aniversário dos meus filhos e sobrinhos, me considero
+                criativa, gosto de reutilizar e reformar peças, sou muito detalhista nos meus trabalhos e acabo me cobrando demais para poder entregar
+                o melhor produto possível.</p>
+        </div>
+
+        </div>
+    </div>
+       </div>
+
 </body>
 </html>
+
+
+
+
+
+   
+
+                      
+
+        
+    
